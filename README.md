@@ -1,17 +1,17 @@
 # Ansible-with-Docker
 
-A partir du Dockerfile d'origine, j'ai fait
+A partir du Dockerfile d'origine, j'ai fait<br>
 docker build -t ansible  .
 
-puis 
+puis <br>
 docker run -it -d --name ansible-docker-container ansible
 
-ensuite 
+ensuite <br>
 docker exec -it ansible-docker-container bash
 
-et là j'ai pu vérifier Ansible et Python.
+et là j'ai pu vérifier Ansible et Python.<br>
 
-root@7ed767729ae5:/# ansible --version<br><br>
+root@7ed767729ae5:/# ansible --version<br>
 ansible 2.9.18<br>
   config file = /etc/ansible/ansible.cfg<br>
   configured module search path = [u'/root/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']<br>
